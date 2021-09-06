@@ -21,7 +21,7 @@
                     <li><a href="../../index.html">Home</a></li>
                     <li><a href="../wdv341homework.html">Homework Page</a></li>
                     <li><a href="http://joshuaallen.info/WDV240/project1/blog/">My Blog</a></li>
-                    <li><a href="../../sassFiles/phpBasic.scss">SCSS</a></li>
+                    <li><a href="phpBasic.scss">SCSS</a></li>
                 </ul>
             </aside>
             <main>
@@ -32,13 +32,11 @@
                     <li>Display the assignment name in an h1 element on the page. Include the elements in your output.</li>
                       
                     <li>Use HTML to put an h2 element on the page. Use PHP to display your name inside the element using the variable.</li>
-                    <h2><?php echo $yourName ?></h2>
+                    
                     <li>Create the following variables:  number1, number2 and total.  Assign a value to them.</li>
                        
                     <li>Display the value of each variable and the total variable when you add them together. </li>
-                        <?php
-                            echo "$number1 + $number2 = $total";
-                        ?>
+                       
                     <li>Use PHP to create a Javascript array with the following values: PHP,HTML,Javascript.  Output this array using PHP.  Create a script that will display the values of this array on your page.</li>
                        
                 </ol>
