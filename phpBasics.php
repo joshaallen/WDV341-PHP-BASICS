@@ -30,9 +30,9 @@
             <main>
                 <p>Create a PHP page for this assignment. Use a combination of PHP, HTML and Javascript to perform the following processes.</p>
                 <ol>
-                    <li>Create a variable called yourName. Assign it a value of your name.</li>
+                    <li>Create a variable called yourName. Assign it a value of your name. <?php $yourName = "Joshua Allen"; ?></li>
                        
-                    <li>Display the assignment name in an h1 element on the page. Include the elements in your output.</li>
+                    <li>Display the assignment name in an h1 element on the page. Include the elements in your output.<?php $assignmentName = "PHP BASICS"; echo "<h1>&lt;h1&gt;".$assignmentName."&lt;h1&gt;</h1>"; ?></li>
                       
                     <li>Use HTML to put an h2 element on the page. Use PHP to display your name inside the element using the variable.</li>
                     
