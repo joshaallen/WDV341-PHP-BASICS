@@ -9,6 +9,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="This web page will display basic PHP implemetation spanning arrithmitec, assignment operators, and arrays.">
+    <meta name="keywords" content="PHP, Javascript, HTML, CSS, Arrays, variables">
+    <meta name="author" content="Joshua Allen">
     <title>PhP Basics</title>
     <link rel="stylesheet" type="css" href="phpBasic.css">
 </head>
