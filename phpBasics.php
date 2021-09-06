@@ -4,13 +4,13 @@
     <!--
 				Unit 2 Assignment
 				Author: Joshua Allen
-				Date: October 29, 2018
+				Date: September 6, 2021
 	-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PhP Basics</title>
-    <link rel="stylesheet" type="text/css" href="../../cssFiles/phpBasic.css">
+    <link rel="stylesheet" type="css" href="phpBasic.css">
 </head>
 <body>
     <div class="container">
