@@ -1,0 +1,1 @@
+#This is readme file about my upcoming home work web page that will display PHP functionability.
