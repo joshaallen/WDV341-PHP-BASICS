@@ -13,7 +13,7 @@
     <meta name="keywords" content="PHP, Javascript, HTML, CSS, Arrays, variables">
     <meta name="author" content="Joshua Allen">
     <title>PhP Basics</title>
-    <link rel="stylesheet" type="css" href="phpBasic.css">
+    <link rel="stylesheet" href="phpBasic.css">
 </head>
 <body>
     <div class="container">
