@@ -34,11 +34,11 @@
                        
                     <li>Display the assignment name in an h1 element on the page. Include the elements in your output.<?php $assignmentName = "PHP BASICS"; echo "<h1>&lt;h1&gt;".$assignmentName."&lt;h1&gt;</h1>"; ?></li>
                       
-                    <li>Use HTML to put an h2 element on the page. Use PHP to display your name inside the element using the variable.</li>
+                    <li>Use HTML to put an h2 element on the page. Use PHP to display your name inside the element using the variable. <?php echo '<h2>'.$yourName.'</h2>' ?></li>
                     
-                    <li>Create the following variables:  number1, number2 and total.  Assign a value to them.</li>
+                    <li>Create the following variables:  number1, number2 and total.  Assign a value to them.<?php $number1 = 1; $number2 = 2; $total = $number1 + $number2; ?></li>
                        
-                    <li>Display the value of each variable and the total variable when you add them together. </li>
+                    <li>Display the value of each variable and the total variable when you add them together. <?php echo $number1. " + ". $number2. " = " .$total; ?></li>
                        
                     <li>Use PHP to create a Javascript array with the following values: PHP,HTML,Javascript.  Output this array using PHP.  Create a script that will display the values of this array on your page.</li>
                        
