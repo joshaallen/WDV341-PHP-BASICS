@@ -13,6 +13,7 @@
     <meta name="keywords" content="PHP, Javascript, HTML, CSS, Arrays, variables">
     <meta name="author" content="Joshua Allen">
     <title>PhP Basics</title>
+    <script src="phpBasics.js"></script>
     <link rel="stylesheet" href="phpBasic.css">
 </head>
 <body>
@@ -40,7 +41,9 @@
                        
                     <li>Display the value of each variable and the total variable when you add them together. <?php echo $number1. " + ". $number2. " = " .$total; ?></li>
                        
-                    <li>Use PHP to create a Javascript array with the following values: PHP,HTML,Javascript.  Output this array using PHP.  Create a script that will display the values of this array on your page.</li>
+                    <li>Use PHP to create a Javascript array with the following values: PHP,HTML,Javascript.  Output this array using PHP.  Create a script that will display the values of this array on your page.<?php $phpArray = ['PHP', 'HTML', 'JAVASCRIPT'];?> <script> 
+                    var javaScriptArray = <?php echo json_encode($phpArray);?>; var text=""; javaScriptArray.forEach(makeNice);document.write(text);
+                     </script> </li>
                        
                 </ol>
             </main>
